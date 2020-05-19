@@ -16,8 +16,8 @@ dataf = sys.argv[1]	#待聚类数据列表，格式为imgpath \t group \t featur
 #阈值设置部分
 IP_out_thread = 0.4	#组内细分、异常值剔除 內积阈值，需要尝试看看
 IP_ct_thread = 0.9	#簇间合并阈值，默认0.8
-hier_thread = 1.10	#层次聚类阈值，默认1.15
-Dup_thread = 0.2	#去重阈值，默认0.2
+hier_thread = 1.20	#层次聚类阈值，默认1.15
+Dup_thread = 0.1	#去重阈值，默认0.2
 
 featdim = 384 #特征长度，默认取128
 
